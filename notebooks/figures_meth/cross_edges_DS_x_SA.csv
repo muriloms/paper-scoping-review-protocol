@@ -1,0 +1,51 @@
+source,target,weight,dim_source,dim_target
+Theoretical (literature),NA,1,Data Source (Parameterization),Sensitivity Analysis
+Theoretical (literature),Exploratory / Scenario-based,43,Data Source (Parameterization),Sensitivity Analysis
+Theoretical (literature),Global (Screening),2,Data Source (Parameterization),Sensitivity Analysis
+Theoretical (literature),Global (Variance-based),6,Data Source (Parameterization),Sensitivity Analysis
+Theoretical (literature),Regression / Statistical Inference,13,Data Source (Parameterization),Sensitivity Analysis
+Empirical (macro),Regression / Statistical Inference,12,Data Source (Parameterization),Sensitivity Analysis
+Empirical (macro),Exploratory / Scenario-based,21,Data Source (Parameterization),Sensitivity Analysis
+Hybrid,Exploratory / Scenario-based,100,Data Source (Parameterization),Sensitivity Analysis
+Empirical (micro),Exploratory / Scenario-based,61,Data Source (Parameterization),Sensitivity Analysis
+Empirical (micro),Global (Variance-based),8,Data Source (Parameterization),Sensitivity Analysis
+Hybrid,Global (Variance-based),12,Data Source (Parameterization),Sensitivity Analysis
+Hybrid,Regression / Statistical Inference,38,Data Source (Parameterization),Sensitivity Analysis
+Empirical (micro),Local (OAT/OFAT),22,Data Source (Parameterization),Sensitivity Analysis
+Hybrid,Local (OAT/OFAT),43,Data Source (Parameterization),Sensitivity Analysis
+"participatory)""",Exploratory / Scenario-based,9,Data Source (Parameterization),Sensitivity Analysis
+"""Expert-based (qualitative",Exploratory / Scenario-based,9,Data Source (Parameterization),Sensitivity Analysis
+interview,Exploratory / Scenario-based,9,Data Source (Parameterization),Sensitivity Analysis
+Empirical (micro),Regression / Statistical Inference,19,Data Source (Parameterization),Sensitivity Analysis
+Empirical (macro),Local (OAT/OFAT),4,Data Source (Parameterization),Sensitivity Analysis
+Empirical (micro),Global (Screening),2,Data Source (Parameterization),Sensitivity Analysis
+Hybrid,Metamodeling / Surrogate,6,Data Source (Parameterization),Sensitivity Analysis
+"""Synthetic (machine learning",Regression / Statistical Inference,10,Data Source (Parameterization),Sensitivity Analysis
+"other)""",Regression / Statistical Inference,10,Data Source (Parameterization),Sensitivity Analysis
+AI,Regression / Statistical Inference,10,Data Source (Parameterization),Sensitivity Analysis
+Theoretical (literature),Local (OAT/OFAT),22,Data Source (Parameterization),Sensitivity Analysis
+"""Synthetic (machine learning",Local (OAT/OFAT),4,Data Source (Parameterization),Sensitivity Analysis
+"""Synthetic (machine learning",Exploratory / Scenario-based,8,Data Source (Parameterization),Sensitivity Analysis
+"other)""",Local (OAT/OFAT),4,Data Source (Parameterization),Sensitivity Analysis
+"other)""",Exploratory / Scenario-based,8,Data Source (Parameterization),Sensitivity Analysis
+AI,Local (OAT/OFAT),4,Data Source (Parameterization),Sensitivity Analysis
+AI,Exploratory / Scenario-based,8,Data Source (Parameterization),Sensitivity Analysis
+Empirical (micro),Metamodeling / Surrogate,6,Data Source (Parameterization),Sensitivity Analysis
+Hybrid,Global (Screening),7,Data Source (Parameterization),Sensitivity Analysis
+other),Global (Variance-based),1,Data Source (Parameterization),Sensitivity Analysis
+Synthetic (machine learning,Global (Variance-based),1,Data Source (Parameterization),Sensitivity Analysis
+AI,Global (Variance-based),2,Data Source (Parameterization),Sensitivity Analysis
+"participatory)""",Local (OAT/OFAT),3,Data Source (Parameterization),Sensitivity Analysis
+"""Expert-based (qualitative",Local (OAT/OFAT),3,Data Source (Parameterization),Sensitivity Analysis
+interview,Local (OAT/OFAT),3,Data Source (Parameterization),Sensitivity Analysis
+"""Synthetic (machine learning",Metamodeling / Surrogate,6,Data Source (Parameterization),Sensitivity Analysis
+Theoretical (literature),Metamodeling / Surrogate,2,Data Source (Parameterization),Sensitivity Analysis
+"other)""",Metamodeling / Surrogate,6,Data Source (Parameterization),Sensitivity Analysis
+AI,Metamodeling / Surrogate,6,Data Source (Parameterization),Sensitivity Analysis
+Empirical (macro),Metamodeling / Surrogate,5,Data Source (Parameterization),Sensitivity Analysis
+Empirical (macro),Global (Variance-based),4,Data Source (Parameterization),Sensitivity Analysis
+"participatory)""",Regression / Statistical Inference,2,Data Source (Parameterization),Sensitivity Analysis
+"""Expert-based (qualitative",Regression / Statistical Inference,2,Data Source (Parameterization),Sensitivity Analysis
+interview,Regression / Statistical Inference,2,Data Source (Parameterization),Sensitivity Analysis
+"""Synthetic (machine learning",Global (Variance-based),1,Data Source (Parameterization),Sensitivity Analysis
+"other)""",Global (Variance-based),1,Data Source (Parameterization),Sensitivity Analysis
