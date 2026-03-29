@@ -31,42 +31,12 @@
           <attvalue for="0" value="Data Source (Parameterization)" />
         </attvalues>
       </node>
-      <node id="&quot;Expert-based (qualitative" label="&quot;Expert-based (qualitative">
+      <node id="Expert-based (quali; int.; .)" label="Expert-based (quali; int.; .)">
         <attvalues>
           <attvalue for="0" value="Data Source (Parameterization)" />
         </attvalues>
       </node>
-      <node id="interview" label="interview">
-        <attvalues>
-          <attvalue for="0" value="Data Source (Parameterization)" />
-        </attvalues>
-      </node>
-      <node id="participatory)&quot;" label="participatory)&quot;">
-        <attvalues>
-          <attvalue for="0" value="Data Source (Parameterization)" />
-        </attvalues>
-      </node>
-      <node id="&quot;Synthetic (machine learning" label="&quot;Synthetic (machine learning">
-        <attvalues>
-          <attvalue for="0" value="Data Source (Parameterization)" />
-        </attvalues>
-      </node>
-      <node id="AI" label="AI">
-        <attvalues>
-          <attvalue for="0" value="Data Source (Parameterization)" />
-        </attvalues>
-      </node>
-      <node id="other)&quot;" label="other)&quot;">
-        <attvalues>
-          <attvalue for="0" value="Data Source (Parameterization)" />
-        </attvalues>
-      </node>
-      <node id="Synthetic (machine learning" label="Synthetic (machine learning">
-        <attvalues>
-          <attvalue for="0" value="Data Source (Parameterization)" />
-        </attvalues>
-      </node>
-      <node id="other)" label="other)">
+      <node id="Synthetic (ML; AI; other)" label="Synthetic (ML; AI; other)">
         <attvalues>
           <attvalue for="0" value="Data Source (Parameterization)" />
         </attvalues>
@@ -153,962 +123,682 @@
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (macro)" target="&quot;Synthetic (machine learning" id="2" weight="7">
+      <edge source="Empirical (macro)" target="Synthetic (ML; AI; other)" id="2" weight="7">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (macro)" target="AI" id="3" weight="7">
+      <edge source="Empirical (macro)" target="Empirical (micro)" id="3" weight="12">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (macro)" target="other)&quot;" id="4" weight="7">
+      <edge source="Empirical (macro)" target="Expert-based (quali; int.; .)" id="4" weight="1">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (macro)" target="Empirical (micro)" id="5" weight="12">
+      <edge source="Empirical (macro)" target="Predictive" id="5" weight="6">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (macro)" target="Decision Support / Policy Evaluation" id="6" weight="18">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (macro)" target="Exploratory" id="7" weight="6">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (macro)" target="Explanatory" id="8" weight="16">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (macro)" target="Descriptive / Phenomena-based" id="9" weight="5">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (macro)" target="Theoretical / Illustrative" id="10" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (macro)" target="Regression / Statistical Inference" id="11" weight="9">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (macro)" target="Exploratory / Scenario-based" id="12" weight="24">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (macro)" target="Local (OAT/OFAT)" id="13" weight="7">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (macro)" target="Global (Variance-based)" id="14" weight="6">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (macro)" target="Global (Screening)" id="15" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical (literature)" target="Synthetic (ML; AI; other)" id="16" weight="9">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (macro)" target="&quot;Expert-based (qualitative" id="6" weight="1">
+      <edge source="Theoretical (literature)" target="Expert-based (quali; int.; .)" id="17" weight="1">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (macro)" target="interview" id="7" weight="1">
+      <edge source="Theoretical (literature)" target="Empirical (micro)" id="18" weight="2">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (macro)" target="participatory)&quot;" id="8" weight="1">
+      <edge source="Theoretical (literature)" target="Exploratory" id="19" weight="18">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical (literature)" target="Decision Support / Policy Evaluation" id="20" weight="15">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical (literature)" target="Predictive" id="21" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical (literature)" target="Theoretical / Illustrative" id="22" weight="41">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical (literature)" target="Explanatory" id="23" weight="22">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical (literature)" target="Descriptive / Phenomena-based" id="24" weight="4">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical (literature)" target="Exploratory / Scenario-based" id="25" weight="39">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical (literature)" target="Global (Screening)" id="26" weight="5">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical (literature)" target="Global (Variance-based)" id="27" weight="4">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical (literature)" target="Regression / Statistical Inference" id="28" weight="18">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical (literature)" target="Local (OAT/OFAT)" id="29" weight="19">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical (literature)" target="Metamodeling / Surrogate" id="30" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (micro)" target="Hybrid" id="31" weight="21">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (macro)" target="Predictive" id="9" weight="6">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (macro)" target="Decision Support / Policy Evaluation" id="10" weight="18">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (macro)" target="Exploratory" id="11" weight="6">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (macro)" target="Explanatory" id="12" weight="16">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (macro)" target="Descriptive / Phenomena-based" id="13" weight="5">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (macro)" target="Theoretical / Illustrative" id="14" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (macro)" target="Regression / Statistical Inference" id="15" weight="12">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (macro)" target="Exploratory / Scenario-based" id="16" weight="21">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (macro)" target="Local (OAT/OFAT)" id="17" weight="4">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (macro)" target="Metamodeling / Surrogate" id="18" weight="5">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (macro)" target="Global (Variance-based)" id="19" weight="4">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical (literature)" target="&quot;Synthetic (machine learning" id="20" weight="9">
+      <edge source="Empirical (micro)" target="Expert-based (quali; int.; .)" id="32" weight="5">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Theoretical (literature)" target="AI" id="21" weight="9">
+      <edge source="Empirical (micro)" target="Synthetic (ML; AI; other)" id="33" weight="6">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Theoretical (literature)" target="other)&quot;" id="22" weight="9">
+      <edge source="Empirical (micro)" target="Exploratory" id="34" weight="20">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (micro)" target="Explanatory" id="35" weight="25">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (micro)" target="Decision Support / Policy Evaluation" id="36" weight="56">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (micro)" target="Predictive" id="37" weight="19">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (micro)" target="Descriptive / Phenomena-based" id="38" weight="7">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (micro)" target="Theoretical / Illustrative" id="39" weight="5">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (micro)" target="Exploratory / Scenario-based" id="40" weight="59">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (micro)" target="Global (Variance-based)" id="41" weight="8">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (micro)" target="Local (OAT/OFAT)" id="42" weight="19">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (micro)" target="Regression / Statistical Inference" id="43" weight="26">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Empirical (micro)" target="Metamodeling / Surrogate" id="44" weight="3">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Hybrid" target="Expert-based (quali; int.; .)" id="45" weight="6">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Theoretical (literature)" target="&quot;Expert-based (qualitative" id="23" weight="1">
+      <edge source="Hybrid" target="Synthetic (ML; AI; other)" id="46" weight="3">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Theoretical (literature)" target="interview" id="24" weight="1">
+      <edge source="Hybrid" target="Theoretical / Illustrative" id="47" weight="8">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Hybrid" target="Exploratory" id="48" weight="23">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Hybrid" target="Explanatory" id="49" weight="34">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Hybrid" target="Decision Support / Policy Evaluation" id="50" weight="99">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Hybrid" target="Predictive" id="51" weight="22">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Hybrid" target="Descriptive / Phenomena-based" id="52" weight="6">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Hybrid" target="Exploratory / Scenario-based" id="53" weight="102">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Hybrid" target="Global (Variance-based)" id="54" weight="12">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Hybrid" target="Regression / Statistical Inference" id="55" weight="31">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Hybrid" target="Local (OAT/OFAT)" id="56" weight="42">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Hybrid" target="Metamodeling / Surrogate" id="57" weight="12">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Hybrid" target="Global (Screening)" id="58" weight="4">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Expert-based (quali; int.; .)" target="Decision Support / Policy Evaluation" id="59" weight="8">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Expert-based (quali; int.; .)" target="Exploratory" id="60" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Expert-based (quali; int.; .)" target="Predictive" id="61" weight="3">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Expert-based (quali; int.; .)" target="Exploratory / Scenario-based" id="62" weight="9">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Expert-based (quali; int.; .)" target="Local (OAT/OFAT)" id="63" weight="3">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Expert-based (quali; int.; .)" target="Regression / Statistical Inference" id="64" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Synthetic (ML; AI; other)" target="Descriptive / Phenomena-based" id="65" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Synthetic (ML; AI; other)" target="Theoretical / Illustrative" id="66" weight="10">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Synthetic (ML; AI; other)" target="Explanatory" id="67" weight="4">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Synthetic (ML; AI; other)" target="Predictive" id="68" weight="5">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Synthetic (ML; AI; other)" target="Decision Support / Policy Evaluation" id="69" weight="9">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Synthetic (ML; AI; other)" target="Exploratory" id="70" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Synthetic (ML; AI; other)" target="Regression / Statistical Inference" id="71" weight="9">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Synthetic (ML; AI; other)" target="Global (Variance-based)" id="72" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Synthetic (ML; AI; other)" target="Local (OAT/OFAT)" id="73" weight="4">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Synthetic (ML; AI; other)" target="Exploratory / Scenario-based" id="74" weight="14">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Synthetic (ML; AI; other)" target="Metamodeling / Surrogate" id="75" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Decision Support / Policy Evaluation" target="Exploratory" id="76" weight="24">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Theoretical (literature)" target="participatory)&quot;" id="25" weight="1">
+      <edge source="Decision Support / Policy Evaluation" target="Predictive" id="77" weight="26">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Theoretical (literature)" target="Empirical (micro)" id="26" weight="2">
+      <edge source="Decision Support / Policy Evaluation" target="Descriptive / Phenomena-based" id="78" weight="2">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Theoretical (literature)" target="Decision Support / Policy Evaluation" id="27" weight="15">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical (literature)" target="Exploratory" id="28" weight="18">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical (literature)" target="Predictive" id="29" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical (literature)" target="Theoretical / Illustrative" id="30" weight="41">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical (literature)" target="Explanatory" id="31" weight="22">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical (literature)" target="Descriptive / Phenomena-based" id="32" weight="4">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical (literature)" target="Exploratory / Scenario-based" id="33" weight="43">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical (literature)" target="Global (Screening)" id="34" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical (literature)" target="Global (Variance-based)" id="35" weight="6">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical (literature)" target="Regression / Statistical Inference" id="36" weight="13">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical (literature)" target="Local (OAT/OFAT)" id="37" weight="22">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical (literature)" target="Metamodeling / Surrogate" id="38" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (micro)" target="Hybrid" id="39" weight="21">
+      <edge source="Decision Support / Policy Evaluation" target="Explanatory" id="79" weight="12">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (micro)" target="&quot;Expert-based (qualitative" id="40" weight="5">
+      <edge source="Decision Support / Policy Evaluation" target="Communication / Education" id="80" weight="2">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (micro)" target="interview" id="41" weight="5">
+      <edge source="Decision Support / Policy Evaluation" target="Theoretical / Illustrative" id="81" weight="4">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (micro)" target="participatory)&quot;" id="42" weight="5">
+      <edge source="Decision Support / Policy Evaluation" target="Exploratory / Scenario-based" id="82" weight="104">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Decision Support / Policy Evaluation" target="Regression / Statistical Inference" id="83" weight="36">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Decision Support / Policy Evaluation" target="Local (OAT/OFAT)" id="84" weight="47">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Decision Support / Policy Evaluation" target="Global (Variance-based)" id="85" weight="13">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Decision Support / Policy Evaluation" target="Metamodeling / Surrogate" id="86" weight="8">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Decision Support / Policy Evaluation" target="Global (Screening)" id="87" weight="3">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Exploratory" target="Theoretical / Illustrative" id="88" weight="6">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (micro)" target="&quot;Synthetic (machine learning" id="43" weight="6">
+      <edge source="Exploratory" target="Explanatory" id="89" weight="13">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (micro)" target="AI" id="44" weight="6">
+      <edge source="Exploratory" target="Descriptive / Phenomena-based" id="90" weight="3">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (micro)" target="other)&quot;" id="45" weight="6">
+      <edge source="Exploratory" target="Exploratory / Scenario-based" id="91" weight="36">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Exploratory" target="Global (Screening)" id="92" weight="3">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Exploratory" target="Global (Variance-based)" id="93" weight="7">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Exploratory" target="Regression / Statistical Inference" id="94" weight="14">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Exploratory" target="Local (OAT/OFAT)" id="95" weight="17">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Exploratory" target="Metamodeling / Surrogate" id="96" weight="3">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Predictive" target="Descriptive / Phenomena-based" id="97" weight="1">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (micro)" target="Exploratory" id="46" weight="20">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (micro)" target="Explanatory" id="47" weight="25">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (micro)" target="Decision Support / Policy Evaluation" id="48" weight="56">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (micro)" target="Predictive" id="49" weight="19">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (micro)" target="Descriptive / Phenomena-based" id="50" weight="7">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (micro)" target="Theoretical / Illustrative" id="51" weight="5">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (micro)" target="Exploratory / Scenario-based" id="52" weight="61">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (micro)" target="Global (Variance-based)" id="53" weight="8">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (micro)" target="Local (OAT/OFAT)" id="54" weight="22">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (micro)" target="Regression / Statistical Inference" id="55" weight="19">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (micro)" target="Global (Screening)" id="56" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Empirical (micro)" target="Metamodeling / Surrogate" id="57" weight="6">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Hybrid" target="&quot;Expert-based (qualitative" id="58" weight="6">
+      <edge source="Predictive" target="Explanatory" id="98" weight="4">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Hybrid" target="interview" id="59" weight="6">
+      <edge source="Predictive" target="Regression / Statistical Inference" id="99" weight="9">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Predictive" target="Exploratory / Scenario-based" id="100" weight="24">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Predictive" target="Local (OAT/OFAT)" id="101" weight="13">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Predictive" target="Global (Variance-based)" id="102" weight="4">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Predictive" target="Global (Screening)" id="103" weight="3">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical / Illustrative" target="Explanatory" id="104" weight="16">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Hybrid" target="participatory)&quot;" id="60" weight="6">
+      <edge source="Theoretical / Illustrative" target="Descriptive / Phenomena-based" id="105" weight="1">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Hybrid" target="&quot;Synthetic (machine learning" id="61" weight="3">
+      <edge source="Theoretical / Illustrative" target="Exploratory / Scenario-based" id="106" weight="35">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical / Illustrative" target="Regression / Statistical Inference" id="107" weight="13">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical / Illustrative" target="Local (OAT/OFAT)" id="108" weight="15">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical / Illustrative" target="Global (Screening)" id="109" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical / Illustrative" target="Global (Variance-based)" id="110" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Theoretical / Illustrative" target="Metamodeling / Surrogate" id="111" weight="3">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Explanatory" target="Descriptive / Phenomena-based" id="112" weight="3">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Hybrid" target="AI" id="62" weight="3">
+      <edge source="Explanatory" target="Exploratory / Scenario-based" id="113" weight="54">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Explanatory" target="Global (Variance-based)" id="114" weight="5">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Explanatory" target="Regression / Statistical Inference" id="115" weight="24">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Explanatory" target="Local (OAT/OFAT)" id="116" weight="18">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Explanatory" target="Global (Screening)" id="117" weight="3">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Explanatory" target="Metamodeling / Surrogate" id="118" weight="3">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Descriptive / Phenomena-based" target="Regression / Statistical Inference" id="119" weight="6">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Descriptive / Phenomena-based" target="Global (Variance-based)" id="120" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Descriptive / Phenomena-based" target="Local (OAT/OFAT)" id="121" weight="3">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Descriptive / Phenomena-based" target="Exploratory / Scenario-based" id="122" weight="11">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Communication / Education" target="Exploratory / Scenario-based" id="123" weight="2">
+        <attvalues>
+          <attvalue for="1" value="cross" />
+        </attvalues>
+      </edge>
+      <edge source="Exploratory / Scenario-based" target="NA" id="124" weight="1">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Hybrid" target="other)&quot;" id="63" weight="3">
+      <edge source="Exploratory / Scenario-based" target="Regression / Statistical Inference" id="125" weight="34">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Hybrid" target="Theoretical / Illustrative" id="64" weight="8">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Hybrid" target="Exploratory" id="65" weight="23">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Hybrid" target="Explanatory" id="66" weight="34">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Hybrid" target="Decision Support / Policy Evaluation" id="67" weight="99">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Hybrid" target="Predictive" id="68" weight="22">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Hybrid" target="Descriptive / Phenomena-based" id="69" weight="6">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Hybrid" target="Exploratory / Scenario-based" id="70" weight="100">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Hybrid" target="Global (Variance-based)" id="71" weight="12">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Hybrid" target="Regression / Statistical Inference" id="72" weight="38">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Hybrid" target="Local (OAT/OFAT)" id="73" weight="43">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Hybrid" target="Metamodeling / Surrogate" id="74" weight="6">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Hybrid" target="Global (Screening)" id="75" weight="7">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Expert-based (qualitative" target="interview" id="76" weight="10">
+      <edge source="Exploratory / Scenario-based" target="Global (Variance-based)" id="126" weight="10">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="&quot;Expert-based (qualitative" target="participatory)&quot;" id="77" weight="10">
+      <edge source="Exploratory / Scenario-based" target="Local (OAT/OFAT)" id="127" weight="46">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="&quot;Expert-based (qualitative" target="Decision Support / Policy Evaluation" id="78" weight="8">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Expert-based (qualitative" target="Exploratory" id="79" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Expert-based (qualitative" target="Predictive" id="80" weight="3">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Expert-based (qualitative" target="Exploratory / Scenario-based" id="81" weight="9">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Expert-based (qualitative" target="Local (OAT/OFAT)" id="82" weight="3">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Expert-based (qualitative" target="Regression / Statistical Inference" id="83" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="interview" target="participatory)&quot;" id="84" weight="10">
+      <edge source="Exploratory / Scenario-based" target="Metamodeling / Surrogate" id="128" weight="4">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="interview" target="Decision Support / Policy Evaluation" id="85" weight="8">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="interview" target="Exploratory" id="86" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="interview" target="Predictive" id="87" weight="3">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="interview" target="Exploratory / Scenario-based" id="88" weight="9">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="interview" target="Local (OAT/OFAT)" id="89" weight="3">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="interview" target="Regression / Statistical Inference" id="90" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="participatory)&quot;" target="Decision Support / Policy Evaluation" id="91" weight="8">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="participatory)&quot;" target="Exploratory" id="92" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="participatory)&quot;" target="Predictive" id="93" weight="3">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="participatory)&quot;" target="Exploratory / Scenario-based" id="94" weight="9">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="participatory)&quot;" target="Local (OAT/OFAT)" id="95" weight="3">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="participatory)&quot;" target="Regression / Statistical Inference" id="96" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Synthetic (machine learning" target="AI" id="97" weight="23">
+      <edge source="Exploratory / Scenario-based" target="Global (Screening)" id="129" weight="2">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="&quot;Synthetic (machine learning" target="other)&quot;" id="98" weight="23">
+      <edge source="Global (Screening)" target="Global (Variance-based)" id="130" weight="4">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="&quot;Synthetic (machine learning" target="Descriptive / Phenomena-based" id="99" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Synthetic (machine learning" target="Explanatory" id="100" weight="4">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Synthetic (machine learning" target="Theoretical / Illustrative" id="101" weight="10">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Synthetic (machine learning" target="Predictive" id="102" weight="5">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Synthetic (machine learning" target="Decision Support / Policy Evaluation" id="103" weight="8">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Synthetic (machine learning" target="Exploratory" id="104" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Synthetic (machine learning" target="Regression / Statistical Inference" id="105" weight="10">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Synthetic (machine learning" target="Local (OAT/OFAT)" id="106" weight="4">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Synthetic (machine learning" target="Exploratory / Scenario-based" id="107" weight="8">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="&quot;Synthetic (machine learning" target="Metamodeling / Surrogate" id="108" weight="6">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="AI" target="other)&quot;" id="109" weight="23">
+      <edge source="Global (Screening)" target="Local (OAT/OFAT)" id="131" weight="2">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="AI" target="Synthetic (machine learning" id="110" weight="1">
+      <edge source="Global (Variance-based)" target="Metamodeling / Surrogate" id="132" weight="3">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="AI" target="other)" id="111" weight="1">
+      <edge source="Global (Variance-based)" target="Regression / Statistical Inference" id="133" weight="1">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="AI" target="Descriptive / Phenomena-based" id="112" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="AI" target="Explanatory" id="113" weight="4">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="AI" target="Theoretical / Illustrative" id="114" weight="10">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="AI" target="Predictive" id="115" weight="5">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="AI" target="Decision Support / Policy Evaluation" id="116" weight="9">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="AI" target="Exploratory" id="117" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="AI" target="Regression / Statistical Inference" id="118" weight="10">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="AI" target="Local (OAT/OFAT)" id="119" weight="4">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="AI" target="Exploratory / Scenario-based" id="120" weight="8">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="AI" target="Global (Variance-based)" id="121" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="AI" target="Metamodeling / Surrogate" id="122" weight="6">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="other)&quot;" target="Descriptive / Phenomena-based" id="123" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="other)&quot;" target="Explanatory" id="124" weight="4">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="other)&quot;" target="Theoretical / Illustrative" id="125" weight="10">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="other)&quot;" target="Predictive" id="126" weight="5">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="other)&quot;" target="Decision Support / Policy Evaluation" id="127" weight="8">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="other)&quot;" target="Exploratory" id="128" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="other)&quot;" target="Regression / Statistical Inference" id="129" weight="10">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="other)&quot;" target="Local (OAT/OFAT)" id="130" weight="4">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="other)&quot;" target="Exploratory / Scenario-based" id="131" weight="8">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="other)&quot;" target="Metamodeling / Surrogate" id="132" weight="6">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Synthetic (machine learning" target="other)" id="133" weight="1">
+      <edge source="Global (Variance-based)" target="Local (OAT/OFAT)" id="134" weight="3">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Decision Support / Policy Evaluation" target="Exploratory" id="134" weight="24">
+      <edge source="Regression / Statistical Inference" target="Local (OAT/OFAT)" id="135" weight="8">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Decision Support / Policy Evaluation" target="Predictive" id="135" weight="26">
+      <edge source="Regression / Statistical Inference" target="Metamodeling / Surrogate" id="136" weight="5">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Decision Support / Policy Evaluation" target="Descriptive / Phenomena-based" id="136" weight="2">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Decision Support / Policy Evaluation" target="Explanatory" id="137" weight="12">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Decision Support / Policy Evaluation" target="Communication / Education" id="138" weight="2">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Decision Support / Policy Evaluation" target="Theoretical / Illustrative" id="139" weight="4">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Decision Support / Policy Evaluation" target="Exploratory / Scenario-based" id="140" weight="117">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Decision Support / Policy Evaluation" target="Regression / Statistical Inference" id="141" weight="38">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Decision Support / Policy Evaluation" target="Local (OAT/OFAT)" id="142" weight="41">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Decision Support / Policy Evaluation" target="Global (Variance-based)" id="143" weight="16">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Decision Support / Policy Evaluation" target="Metamodeling / Surrogate" id="144" weight="12">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Decision Support / Policy Evaluation" target="Global (Screening)" id="145" weight="7">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory" target="Theoretical / Illustrative" id="146" weight="6">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory" target="Explanatory" id="147" weight="13">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory" target="Descriptive / Phenomena-based" id="148" weight="3">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory" target="Exploratory / Scenario-based" id="149" weight="47">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory" target="Global (Screening)" id="150" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory" target="Global (Variance-based)" id="151" weight="8">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory" target="Regression / Statistical Inference" id="152" weight="6">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory" target="Local (OAT/OFAT)" id="153" weight="19">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Predictive" target="Descriptive / Phenomena-based" id="154" weight="1">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Predictive" target="Explanatory" id="155" weight="4">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Predictive" target="Regression / Statistical Inference" id="156" weight="22">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Predictive" target="Exploratory / Scenario-based" id="157" weight="23">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Predictive" target="Local (OAT/OFAT)" id="158" weight="10">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Predictive" target="Global (Screening)" id="159" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Predictive" target="Metamodeling / Surrogate" id="160" weight="6">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Predictive" target="Global (Variance-based)" id="161" weight="4">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical / Illustrative" target="Explanatory" id="162" weight="16">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical / Illustrative" target="Descriptive / Phenomena-based" id="163" weight="1">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical / Illustrative" target="Exploratory / Scenario-based" id="164" weight="30">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical / Illustrative" target="Regression / Statistical Inference" id="165" weight="11">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical / Illustrative" target="Global (Variance-based)" id="166" weight="3">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical / Illustrative" target="Local (OAT/OFAT)" id="167" weight="18">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Theoretical / Illustrative" target="Metamodeling / Surrogate" id="168" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Explanatory" target="Descriptive / Phenomena-based" id="169" weight="3">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Explanatory" target="Global (Variance-based)" id="170" weight="5">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Explanatory" target="Exploratory / Scenario-based" id="171" weight="57">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Explanatory" target="Regression / Statistical Inference" id="172" weight="16">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Explanatory" target="Local (OAT/OFAT)" id="173" weight="24">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Explanatory" target="Global (Screening)" id="174" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Explanatory" target="Metamodeling / Surrogate" id="175" weight="3">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Descriptive / Phenomena-based" target="Local (OAT/OFAT)" id="176" weight="5">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Descriptive / Phenomena-based" target="Exploratory / Scenario-based" id="177" weight="8">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Descriptive / Phenomena-based" target="Regression / Statistical Inference" id="178" weight="7">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Communication / Education" target="Exploratory / Scenario-based" id="179" weight="2">
-        <attvalues>
-          <attvalue for="1" value="cross" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory / Scenario-based" target="NA" id="180" weight="1">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory / Scenario-based" target="Regression / Statistical Inference" id="181" weight="34">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory / Scenario-based" target="Global (Variance-based)" id="182" weight="10">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory / Scenario-based" target="Local (OAT/OFAT)" id="183" weight="46">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory / Scenario-based" target="Metamodeling / Surrogate" id="184" weight="4">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Exploratory / Scenario-based" target="Global (Screening)" id="185" weight="2">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Global (Screening)" target="Global (Variance-based)" id="186" weight="4">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Global (Screening)" target="Local (OAT/OFAT)" id="187" weight="2">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Global (Variance-based)" target="Metamodeling / Surrogate" id="188" weight="3">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Global (Variance-based)" target="Regression / Statistical Inference" id="189" weight="1">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Global (Variance-based)" target="Local (OAT/OFAT)" id="190" weight="3">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Regression / Statistical Inference" target="Local (OAT/OFAT)" id="191" weight="8">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Regression / Statistical Inference" target="Metamodeling / Surrogate" id="192" weight="5">
-        <attvalues>
-          <attvalue for="1" value="within" />
-        </attvalues>
-      </edge>
-      <edge source="Local (OAT/OFAT)" target="Metamodeling / Surrogate" id="193" weight="2">
+      <edge source="Local (OAT/OFAT)" target="Metamodeling / Surrogate" id="137" weight="2">
         <attvalues>
           <attvalue for="1" value="within" />
         </attvalues>
