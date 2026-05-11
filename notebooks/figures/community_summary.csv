@@ -1,8 +1,7 @@
 community,size,top_keywords,avg_degree,avg_betweenness
 0,3,flood risk; cloud model; urban pluvial flooding,3.0,0.005353139951152601
-1,65,agent-based modeling; validation; land-use change; covid-19; calibration; social influence; migration,2.169230769230769,0.015273434785629907
+1,67,agent-based modeling; simulation; validation; land-use change; covid-19; sustainability; calibration,2.1641791044776117,0.015181544850274372
 2,6,complex systems; decision-making; uncertainty; data assimilation; adaptation models; costs,2.6666666666666665,0.023788015657934355
-3,2,simulation; sustainability,2.0,0.012195121951219513
-4,2,opinion dynamics; public opinion,1.5,0.012195121951219513
-5,3,sensitivity analysis; review; individual-based model,2.3333333333333335,0.016059419853457792
-6,2,energy price shocks; inflation,2.0,0.0
+3,2,opinion dynamics; public opinion,1.5,0.012195121951219513
+4,3,sensitivity analysis; review; individual-based model,2.3333333333333335,0.016059419853457792
+5,2,energy price shocks; inflation,2.0,0.0

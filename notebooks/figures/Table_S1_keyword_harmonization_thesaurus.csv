@@ -1,0 +1,20 @@
+Variant,Canonical Form,Rule Category,Raw Frequency
+abm,agent-based modeling,Abbreviation expansion,2
+abms,agent-based modeling,Abbreviation expansion,1
+agent-based model (abm),agent-based modeling,Abbreviation expansion,6
+mas,multi-agent systems,Abbreviation expansion,0
+agent based model,agent-based modeling,Hyphenation normalization,1
+agent based modeling,agent-based modeling,Hyphenation normalization,3
+agent based models,agent-based modeling,Hyphenation normalization,1
+decision making,decision-making,Hyphenation normalization,3
+land use,land-use change,Hyphenation normalization,2
+land use change,land-use change,Hyphenation normalization,1
+multi agent system,multi-agent systems,Hyphenation normalization,0
+multi agent systems,multi-agent systems,Hyphenation normalization,0
+sensitivity analyses,sensitivity analysis,Hyphenation normalization,0
+agent-based models,agent-based modeling,Singular/Plural unification,27
+agent-based simulations,agent-based simulation,Singular/Plural unification,0
+agent based modelling,agent-based modeling,Spelling variant (UK/US),3
+agent-based modelling,agent-based modeling,Spelling variant (UK/US),36
+agent-based model,agent-based modeling,Synonym merging,70
+multi-agent system,multi-agent systems,Synonym merging,3

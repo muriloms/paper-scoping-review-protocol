@@ -1,0 +1,20 @@
+Variant,Canonical Form,Rule Category
+agent-based model,agent-based modeling,Synonym / Inflection
+agent-based models,agent-based modeling,Synonym / Inflection
+agent-based modelling,agent-based modeling,Synonym / Spelling variant (UK/US)
+agent based model,agent-based modeling,Synonym / Hyphenation
+agent based models,agent-based modeling,Synonym / Hyphenation
+agent based modeling,agent-based modeling,Synonym / Hyphenation
+agent based modelling,agent-based modeling,Synonym / Hyphenation + Spelling
+agent-based model (abm),agent-based modeling,Synonym / Abbreviation expansion
+abm,agent-based modeling,Abbreviation expansion
+abms,agent-based modeling,Abbreviation expansion + Inflection
+decision making,decision-making,Hyphenation normalization
+multi-agent system,multi-agent systems,Singular/Plural unification
+multi agent systems,multi-agent systems,Hyphenation normalization
+multi agent system,multi-agent systems,Hyphenation + Singular/Plural
+mas,multi-agent systems,Abbreviation expansion
+sensitivity analyses,sensitivity analysis,Singular/Plural unification
+land use change,land-use change,Hyphenation normalization
+land use,land-use change,Synonym / Scope unification
+agent-based simulations,agent-based simulation,Singular/Plural unification

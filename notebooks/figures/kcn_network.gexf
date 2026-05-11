@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-03-29">
+  <meta lastmodifieddate="2026-05-11">
     <creator>NetworkX 3.6.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -59,7 +59,7 @@
       </node>
       <node id="simulation" label="simulation">
         <attvalues>
-          <attvalue for="0" value="3" />
+          <attvalue for="0" value="1" />
           <attvalue for="1" value="11.0" />
           <attvalue for="2" value="0.0" />
           <attvalue for="3" value="0.49101796407185627" />
@@ -122,7 +122,7 @@
       </node>
       <node id="sustainability" label="sustainability">
         <attvalues>
-          <attvalue for="0" value="3" />
+          <attvalue for="0" value="1" />
           <attvalue for="1" value="4.0" />
           <attvalue for="2" value="0.024390243902439025" />
           <attvalue for="3" value="0.49101796407185627" />
@@ -149,7 +149,7 @@
       </node>
       <node id="opinion dynamics" label="opinion dynamics">
         <attvalues>
-          <attvalue for="0" value="4" />
+          <attvalue for="0" value="3" />
           <attvalue for="1" value="5.0" />
           <attvalue for="2" value="0.024390243902439025" />
           <attvalue for="3" value="0.4939759036144578" />
@@ -158,7 +158,7 @@
       </node>
       <node id="public opinion" label="public opinion">
         <attvalues>
-          <attvalue for="0" value="4" />
+          <attvalue for="0" value="3" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
           <attvalue for="3" value="0.3319838056680162" />
@@ -410,7 +410,7 @@
       </node>
       <node id="sensitivity analysis" label="sensitivity analysis">
         <attvalues>
-          <attvalue for="0" value="5" />
+          <attvalue for="0" value="4" />
           <attvalue for="1" value="9.0" />
           <attvalue for="2" value="0.04817825956037338" />
           <attvalue for="3" value="0.5" />
@@ -419,7 +419,7 @@
       </node>
       <node id="individual-based model" label="individual-based model">
         <attvalues>
-          <attvalue for="0" value="5" />
+          <attvalue for="0" value="4" />
           <attvalue for="1" value="4.0" />
           <attvalue for="2" value="0.0" />
           <attvalue for="3" value="0.3360655737704918" />
@@ -428,7 +428,7 @@
       </node>
       <node id="review" label="review">
         <attvalues>
-          <attvalue for="0" value="5" />
+          <attvalue for="0" value="4" />
           <attvalue for="1" value="4.0" />
           <attvalue for="2" value="0.0" />
           <attvalue for="3" value="0.3360655737704918" />
@@ -554,7 +554,7 @@
       </node>
       <node id="energy price shocks" label="energy price shocks">
         <attvalues>
-          <attvalue for="0" value="6" />
+          <attvalue for="0" value="5" />
           <attvalue for="1" value="4.0" />
           <attvalue for="2" value="0.0" />
           <attvalue for="3" value="0.49101796407185627" />
@@ -563,7 +563,7 @@
       </node>
       <node id="inflation" label="inflation">
         <attvalues>
-          <attvalue for="0" value="6" />
+          <attvalue for="0" value="5" />
           <attvalue for="1" value="4.0" />
           <attvalue for="2" value="0.0" />
           <attvalue for="3" value="0.49101796407185627" />
