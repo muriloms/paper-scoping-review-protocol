@@ -1,33 +1,33 @@
 source,target,weight,dim_source,dim_target
-Exploratory,NA,1,Model Objective (optional),Sensitivity Analysis
-Exploratory,Exploratory / Scenario-based,36,Model Objective (optional),Sensitivity Analysis
-Decision Support / Policy Evaluation,NA,1,Model Objective (optional),Sensitivity Analysis
 Decision Support / Policy Evaluation,Exploratory / Scenario-based,104,Model Objective (optional),Sensitivity Analysis
-Exploratory,Global (Screening),3,Model Objective (optional),Sensitivity Analysis
+Decision Support / Policy Evaluation,NA,1,Model Objective (optional),Sensitivity Analysis
+Exploratory,Exploratory / Scenario-based,36,Model Objective (optional),Sensitivity Analysis
+Exploratory,NA,1,Model Objective (optional),Sensitivity Analysis
 Exploratory,Global (Variance-based),7,Model Objective (optional),Sensitivity Analysis
+Exploratory,Global (Screening),3,Model Objective (optional),Sensitivity Analysis
+Decision Support / Policy Evaluation,Regression / Statistical Inference,36,Model Objective (optional),Sensitivity Analysis
 Predictive,Regression / Statistical Inference,9,Model Objective (optional),Sensitivity Analysis
 Predictive,Exploratory / Scenario-based,24,Model Objective (optional),Sensitivity Analysis
-Decision Support / Policy Evaluation,Regression / Statistical Inference,36,Model Objective (optional),Sensitivity Analysis
 Theoretical / Illustrative,Exploratory / Scenario-based,35,Model Objective (optional),Sensitivity Analysis
-Explanatory,Exploratory / Scenario-based,54,Model Objective (optional),Sensitivity Analysis
 Explanatory,Global (Variance-based),5,Model Objective (optional),Sensitivity Analysis
+Explanatory,Exploratory / Scenario-based,54,Model Objective (optional),Sensitivity Analysis
 Theoretical / Illustrative,Regression / Statistical Inference,13,Model Objective (optional),Sensitivity Analysis
 Exploratory,Regression / Statistical Inference,14,Model Objective (optional),Sensitivity Analysis
-Predictive,Local (OAT/OFAT),13,Model Objective (optional),Sensitivity Analysis
 Decision Support / Policy Evaluation,Local (OAT/OFAT),47,Model Objective (optional),Sensitivity Analysis
+Predictive,Local (OAT/OFAT),13,Model Objective (optional),Sensitivity Analysis
 Explanatory,Regression / Statistical Inference,24,Model Objective (optional),Sensitivity Analysis
 Exploratory,Local (OAT/OFAT),17,Model Objective (optional),Sensitivity Analysis
 Decision Support / Policy Evaluation,Global (Variance-based),13,Model Objective (optional),Sensitivity Analysis
-Theoretical / Illustrative,Local (OAT/OFAT),15,Model Objective (optional),Sensitivity Analysis
 Theoretical / Illustrative,Global (Screening),2,Model Objective (optional),Sensitivity Analysis
+Theoretical / Illustrative,Local (OAT/OFAT),15,Model Objective (optional),Sensitivity Analysis
 Descriptive / Phenomena-based,Regression / Statistical Inference,6,Model Objective (optional),Sensitivity Analysis
 Decision Support / Policy Evaluation,Metamodeling / Surrogate,8,Model Objective (optional),Sensitivity Analysis
 Descriptive / Phenomena-based,Global (Variance-based),2,Model Objective (optional),Sensitivity Analysis
 Theoretical / Illustrative,Global (Variance-based),2,Model Objective (optional),Sensitivity Analysis
 Exploratory,Metamodeling / Surrogate,3,Model Objective (optional),Sensitivity Analysis
 Explanatory,Local (OAT/OFAT),18,Model Objective (optional),Sensitivity Analysis
-Descriptive / Phenomena-based,Local (OAT/OFAT),3,Model Objective (optional),Sensitivity Analysis
 Descriptive / Phenomena-based,Exploratory / Scenario-based,11,Model Objective (optional),Sensitivity Analysis
+Descriptive / Phenomena-based,Local (OAT/OFAT),3,Model Objective (optional),Sensitivity Analysis
 Predictive,Global (Variance-based),4,Model Objective (optional),Sensitivity Analysis
 Decision Support / Policy Evaluation,Global (Screening),3,Model Objective (optional),Sensitivity Analysis
 Explanatory,Global (Screening),3,Model Objective (optional),Sensitivity Analysis
