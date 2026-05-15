@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-03-29">
+  <meta lastmodifieddate="2026-05-15">
     <creator>NetworkX 3.6.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -138,12 +138,12 @@
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Empirical (macro)" target="Predictive" id="5" weight="6">
+      <edge source="Empirical (macro)" target="Decision Support / Policy Evaluation" id="5" weight="18">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Empirical (macro)" target="Decision Support / Policy Evaluation" id="6" weight="18">
+      <edge source="Empirical (macro)" target="Predictive" id="6" weight="6">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
@@ -208,12 +208,12 @@
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Theoretical (literature)" target="Exploratory" id="19" weight="18">
+      <edge source="Theoretical (literature)" target="Decision Support / Policy Evaluation" id="19" weight="15">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Theoretical (literature)" target="Decision Support / Policy Evaluation" id="20" weight="15">
+      <edge source="Theoretical (literature)" target="Exploratory" id="20" weight="18">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
@@ -243,12 +243,12 @@
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Theoretical (literature)" target="Global (Screening)" id="26" weight="5">
+      <edge source="Theoretical (literature)" target="Global (Variance-based)" id="26" weight="4">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Theoretical (literature)" target="Global (Variance-based)" id="27" weight="4">
+      <edge source="Theoretical (literature)" target="Global (Screening)" id="27" weight="5">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
@@ -428,12 +428,12 @@
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Expert-based (quali; int.; .)" target="Local (OAT/OFAT)" id="63" weight="3">
+      <edge source="Expert-based (quali; int.; .)" target="Regression / Statistical Inference" id="63" weight="2">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Expert-based (quali; int.; .)" target="Regression / Statistical Inference" id="64" weight="2">
+      <edge source="Expert-based (quali; int.; .)" target="Local (OAT/OFAT)" id="64" weight="3">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
@@ -468,12 +468,12 @@
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Synthetic (ML; AI; other)" target="Regression / Statistical Inference" id="71" weight="9">
+      <edge source="Synthetic (ML; AI; other)" target="Global (Variance-based)" id="71" weight="2">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Synthetic (ML; AI; other)" target="Global (Variance-based)" id="72" weight="2">
+      <edge source="Synthetic (ML; AI; other)" target="Regression / Statistical Inference" id="72" weight="9">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
@@ -573,12 +573,12 @@
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Exploratory" target="Global (Screening)" id="92" weight="3">
+      <edge source="Exploratory" target="Global (Variance-based)" id="92" weight="7">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Exploratory" target="Global (Variance-based)" id="93" weight="7">
+      <edge source="Exploratory" target="Global (Screening)" id="93" weight="3">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
@@ -653,12 +653,12 @@
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Theoretical / Illustrative" target="Local (OAT/OFAT)" id="108" weight="15">
+      <edge source="Theoretical / Illustrative" target="Global (Screening)" id="108" weight="2">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Theoretical / Illustrative" target="Global (Screening)" id="109" weight="2">
+      <edge source="Theoretical / Illustrative" target="Local (OAT/OFAT)" id="109" weight="15">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
@@ -678,12 +678,12 @@
           <attvalue for="1" value="within" />
         </attvalues>
       </edge>
-      <edge source="Explanatory" target="Exploratory / Scenario-based" id="113" weight="54">
+      <edge source="Explanatory" target="Global (Variance-based)" id="113" weight="5">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Explanatory" target="Global (Variance-based)" id="114" weight="5">
+      <edge source="Explanatory" target="Exploratory / Scenario-based" id="114" weight="54">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
@@ -718,12 +718,12 @@
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Descriptive / Phenomena-based" target="Local (OAT/OFAT)" id="121" weight="3">
+      <edge source="Descriptive / Phenomena-based" target="Exploratory / Scenario-based" id="121" weight="11">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
       </edge>
-      <edge source="Descriptive / Phenomena-based" target="Exploratory / Scenario-based" id="122" weight="11">
+      <edge source="Descriptive / Phenomena-based" target="Local (OAT/OFAT)" id="122" weight="3">
         <attvalues>
           <attvalue for="1" value="cross" />
         </attvalues>
