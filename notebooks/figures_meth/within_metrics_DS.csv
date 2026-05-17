@@ -2,6 +2,6 @@ category,degree,weighted_degree,degree_centrality,betweenness_centrality,closene
 Empirical (micro),5,46,1.0,0.1,1.0,0.6172600188385389
 Hybrid,4,34,0.8,0.1,0.8333333333333334,0.5363583872058467
 Empirical (macro),5,27,1.0,0.4,1.0,0.39758511300213406
-Synthetic (ML; AI; other),4,25,0.8,0.0,0.8333333333333334,0.3083038207530659
+Synthetic (machine learning and AI),4,25,0.8,0.0,0.8333333333333334,0.3083038207530659
 Theoretical (literature),4,15,0.8,0.30000000000000004,0.8333333333333334,0.17313993643997638
-Expert-based (quali; int.; .),4,13,0.8,0.4,0.8333333333333334,0.21956125353780495
+"Expert-based (qualitative, interview, participatory)",4,13,0.8,0.4,0.8333333333333334,0.21956125353780495

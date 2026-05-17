@@ -261,7 +261,7 @@ def format_significance_report(results: dict) -> str:
         f"  Significant (α=0.05):        {results['significant']}\n"
         f"\n"
         f"  Interpretation: The observed modularity is {z:.1f} standard\n"
-        f"  deviations above the null expectation, indicating that the\n"
+        f"  deviations below the null expectation, indicating that the\n"
         f"  community structure is {'statistically significant' if results['significant'] else 'not statistically significant'}\n"
         f"  despite {'a low' if Q_obs < 0.3 else 'a moderate'} absolute Q value.\n"
     )

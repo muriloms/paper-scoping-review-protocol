@@ -231,102 +231,92 @@ def plot_network(
     layout_iterations: int = 150,
     save_path: Optional[str] = None,
 ):
-    """
-    Draw the co-occurrence network with communities, sized by weighted degree.
-    Compact layout optimized for publication.
-    """
+    """Co-occurrence network with communities, sized by weighted degree."""
     fig, ax = plt.subplots(1, 1, figsize=figsize, facecolor="white")
 
-    # --- Compact layout: low k = tighter packing ---
-    k = layout_k or (0.7 / np.sqrt(G.number_of_nodes()))
-    pos = nx.spring_layout(
-        G, k=k, seed=layout_seed, weight="weight",
-        iterations=layout_iterations, scale=1.0,
-    )
+    def _norm(p):
+        a = np.array(list(p.values()), float)
+        mn = a.min(0); sp = a.max(0) - mn
+        sp[sp == 0] = 1.0; s = 1.0 / sp.max()
+        return {n: np.array([(xy[0]-mn[0])*s, (xy[1]-mn[1])*s])
+                for n, xy in p.items()}
 
-    # Colors
+    # --- Layout: giant component spread out, small components packed below ---
+    comps = sorted(nx.connected_components(G), key=len, reverse=True)
+    giant = G.subgraph(comps[0])
+    k = layout_k or (2.6 / np.sqrt(max(giant.number_of_nodes(), 1)))
+    pos = nx.spring_layout(giant, k=k, seed=layout_seed, weight="weight",
+                           iterations=max(layout_iterations, 250))
+    pos = _norm(pos)
+    small = comps[1:]
+    if small:
+        cell = 1.0 / len(small)
+        for i, comp in enumerate(small):
+            sub = G.subgraph(comp)
+            sp = ({list(comp)[0]: np.zeros(2)} if len(comp) == 1
+                  else _norm(nx.spring_layout(sub, seed=layout_seed,
+                             iterations=layout_iterations, weight="weight")))
+            cx, cy = (i + 0.5) * cell, -0.14
+            for m, xy in sp.items():
+                pos[m] = np.array([cx + (xy[0]-0.5)*cell*0.7,
+                                   cy + (xy[1]-0.5)*0.10])
+
+    # Colors / sizes
     cmap = _get_community_colormap(partition)
     node_colors = [cmap[partition[n]] for n in G.nodes()]
-
-    # Sizes – non-linear scaling
     w_deg = node_metrics.loc[list(G.nodes()), "weighted_degree"]
     node_sizes = (w_deg / w_deg.max()) ** 0.65 * (node_scale ** 1.5) + 12
 
     # Edges
-    edges_to_draw = [
-        (u, v) for u, v, d in G.edges(data=True)
-        if d["weight"] >= min_edge_weight_display
-    ]
-    edge_weights = [G[u][v]["weight"] for u, v in edges_to_draw]
-    max_ew = max(edge_weights) if edge_weights else 1
-    edge_widths = [0.2 + 2.2 * (w / max_ew) for w in edge_weights]
-    edge_alphas = [0.06 + edge_alpha * (w / max_ew) for w in edge_weights]
+    edges = [(u, v) for u, v, d in G.edges(data=True)
+             if d["weight"] >= min_edge_weight_display]
+    ew = [G[u][v]["weight"] for u, v in edges]
+    mx = max(ew) if ew else 1
+    for (u, v), w in zip(edges, ew):
+        ax.plot([pos[u][0], pos[v][0]], [pos[u][1], pos[v][1]],
+                color="#888888", linewidth=0.2 + 2.2*(w/mx),
+                alpha=0.06 + edge_alpha*(w/mx), zorder=1)
 
-    # Draw edges with varying alpha for depth
-    for (u, v), ew, ea in zip(edges_to_draw, edge_widths, edge_alphas):
-        x = [pos[u][0], pos[v][0]]
-        y = [pos[u][1], pos[v][1]]
-        ax.plot(x, y, color="#888888", linewidth=ew, alpha=ea, zorder=1)
-
-    # Draw nodes
-    nx.draw_networkx_nodes(
-        G, pos,
-        node_color=node_colors,
-        node_size=node_sizes,
-        alpha=0.9,
-        linewidths=0.4,
-        edgecolors="white",
-        ax=ax,
-    )
+    # Nodes
+    nx.draw_networkx_nodes(G, pos, node_color=node_colors, node_size=node_sizes,
+                           alpha=0.9, linewidths=0.4, edgecolors="white", ax=ax)
 
     # Labels – top N by weighted degree
-    top_nodes = node_metrics.head(top_n_labels).index.tolist()
-    labels = {n: n for n in top_nodes if n in G.nodes()}
-
+    top = node_metrics.head(top_n_labels).index.tolist()
+    labels = {n: n for n in top if n in G.nodes()}
     try:
         from adjustText import adjust_text
-        texts = []
-        for node, label in labels.items():
-            x, y = pos[node]
-            txt = ax.text(
-                x, y, label, fontsize=font_size, fontweight="bold",
-                ha="center", va="center",
-                bbox=dict(boxstyle="round,pad=0.12", facecolor="white",
-                          alpha=0.75, edgecolor="none", linewidth=0),
-            )
-            texts.append(txt)
-        adjust_text(
-            texts, ax=ax,
-            arrowprops=dict(arrowstyle="-", color="#aaaaaa", lw=0.4),
-            expand=(1.2, 1.4),
-            force_text=(0.6, 0.8),
-        )
+        texts = [ax.text(pos[n][0], pos[n][1], l, fontsize=font_size,
+                         fontweight="bold", ha="center", va="center",
+                         bbox=dict(boxstyle="round,pad=0.12", facecolor="white",
+                                   alpha=0.75, edgecolor="none"))
+                 for n, l in labels.items()]
+        adjust_text(texts, ax=ax, expand=(1.3, 1.5), force_text=(0.6, 0.8),
+                    arrowprops=dict(arrowstyle="-", color="#aaaaaa", lw=0.4))
     except ImportError:
-        nx.draw_networkx_labels(
-            G, pos, labels=labels,
-            font_size=font_size, font_weight="bold", ax=ax,
-        )
+        nx.draw_networkx_labels(G, pos, labels=labels, font_size=font_size,
+                                font_weight="bold", ax=ax)
 
     # Legend
-    for comm_id, color in sorted(cmap.items()):
-        members = [n for n, c in partition.items() if c == comm_id]
-        ax.scatter([], [], c=[color], s=70, label=f"C{comm_id} ({len(members)} kw)",
+    for c, col in sorted(cmap.items()):
+        m = [n for n, cc in partition.items() if cc == c]
+        ax.scatter([], [], c=[col], s=70, label=f"C{c} ({len(m)} kw)",
                    edgecolors="white", linewidths=0.5)
-    ax.legend(
-        loc="upper left", fontsize=7, framealpha=0.95,
-        title="Communities (Louvain)", title_fontsize=8,
-        ncol=2 if len(cmap) > 6 else 1,
-        borderpad=0.8, handletextpad=0.3,
-    )
+    ax.legend(loc="upper left", fontsize=7, framealpha=0.95,
+              title="Communities (Louvain)", title_fontsize=8,
+              ncol=2 if len(cmap) > 6 else 1, borderpad=0.8, handletextpad=0.3)
 
+    # Explicit limits (key fix: stops outliers from squashing the figure)
+    a = np.array(list(pos.values())); m = 0.06
+    ax.set_xlim(a[:, 0].min()-m, a[:, 0].max()+m)
+    ax.set_ylim(a[:, 1].min()-m, a[:, 1].max()+m)
+    ax.set_aspect("equal")
     ax.set_title(title, fontsize=13, fontweight="bold", pad=10)
     ax.axis("off")
-    ax.margins(0.03)
     plt.tight_layout(pad=0.3)
 
     if save_path:
         fig.savefig(save_path, dpi=300, bbox_inches="tight", facecolor="white")
-
     return fig, ax
 
 

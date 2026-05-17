@@ -1,64 +1,76 @@
 source,target,weight
-agent-based modeling,simulation,9
+agent-based modeling,simulation,10
+agent-based modeling,complex systems,9
 agent-based modeling,decision-making,9
-agent-based modeling,complex systems,8
 agent-based modeling,validation,7
 agent-based modeling,land-use change,6
+agent-based modeling,social influence,5
 agent-based modeling,sensitivity analysis,5
-agent-based modeling,social influence,4
-agent-based modeling,climate change,4
+agent-based modeling,innovation,4
 agent-based modeling,covid-19,4
 agent-based modeling,migration,4
-agent-based modeling,uncertainty,4
-agent-based modeling,calibration,4
 agent-based modeling,flood risk,4
-agent-based modeling,housing market,3
-agent-based modeling,innovation,3
-agent-based modeling,netlogo,3
-agent-based modeling,policy evaluation,3
+agent-based modeling,calibration,4
+agent-based modeling,climate change,4
+agent-based modeling,uncertainty,4
+agent-based modeling,model validation,3
+agent-based modeling,circular economy,3
+agent-based modeling,socio-hydrology,3
+agent-based modeling,computer simulation,3
+agent-based modeling,complexity,3
+agent-based modeling,opinion dynamics,3
+agent-based modeling,social networks,3
 agent-based modeling,water market,3
 agent-based modeling,population dynamics,3
 agent-based modeling,data assimilation,3
-agent-based modeling,socio-hydrology,3
-agent-based modeling,computer simulation,3
-agent-based modeling,model calibration,3
-agent-based modeling,social networks,3
-agent-based modeling,circular economy,3
-agent-based modeling,model validation,3
-agent-based modeling,opinion dynamics,3
+agent-based modeling,netlogo,3
 agent-based modeling,sustainable development,3
+agent-based modeling,model calibration,3
+agent-based modeling,housing market,3
+agent-based modeling,policy evaluation,3
 agent-based modeling,social network,3
-agent-based modeling,flood risk management,2
-agent-based modeling,rational choice theory,2
-agent-based modeling,climate change adaptation,2
-simulation,sustainability,2
+adaptation models,costs,2
+adaptation models,complex systems,2
+complex systems,decision-making,2
+agent-based modeling,sustainability,2
 agent-based modeling,computational social science,2
+agent-based modeling,consumer behavior,2
+agent-based modeling,technology adoption,2
+climate-change adaptation,climate-change impacts,2
+agent-based modeling,multi-agent reinforcement learning,2
+complex systems,costs,2
+agent-based modeling,climate change adaptation,2
+agent-based modeling,rational choice theory,2
+agent-based modeling,cooperation,2
+complex systems,school choice,2
+complex systems,school segregation,2
+complexity,school choice,2
+complexity,school segregation,2
+school choice,school segregation,2
+agent-based modeling,school segregation,2
+complex systems,complexity,2
+agent-based modeling,school choice,2
+simulation,sustainability,2
 agent-based modeling,social dilemma,2
 opinion dynamics,public opinion,2
-agent-based modeling,consumer behavior,2
-agent-based modeling,sustainability,2
-adaptation models,complex systems,2
-adaptation models,costs,2
-complex systems,decision-making,2
-decision-making,uncertainty,2
-agent-based modeling,multi-agent reinforcement learning,2
-agent-based modeling,technology adoption,2
-complex systems,costs,2
+agent-based modeling,flood risk management,2
 agent-based modeling,fisheries,2
+decision-making,uncertainty,2
 agent-based modeling,critical phenomena of socio-economic systems,2
-agent-based modeling,complexity,2
-agent-based modeling,social simulation,2
 agent-based modeling,biodiversity,2
 agent-based modeling,network effects,2
+agent-based modeling,life cycle assessment,2
+agent-based modeling,bayesian estimation,2
+agent-based modeling,consumer behaviour,2
 complex systems,data assimilation,2
 review,sensitivity analysis,2
 individual-based model,sensitivity analysis,2
 individual-based model,review,2
 agent-based modeling,multi-agent systems,2
 agent-based modeling,spatial segregation,2
-agent-based modeling,life cycle assessment,2
 agent-based modeling,social interaction,2
-agent-based modeling,consumer behaviour,2
+agent-based modeling,opinion formation,2
+agent-based modeling,social simulation,2
 agent-based modeling,compliance,2
 agent-based modeling,socio-economic networks,2
 agent-based modeling,complex network,2

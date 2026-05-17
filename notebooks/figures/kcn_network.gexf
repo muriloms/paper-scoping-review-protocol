@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-05-11">
+  <meta lastmodifieddate="2026-05-17">
     <creator>NetworkX 3.6.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -14,749 +14,812 @@
     <nodes>
       <node id="adaptation models" label="adaptation models">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="0" />
           <attvalue for="1" value="4.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.33884297520661155" />
-          <attvalue for="4" value="0.016754837541038646" />
+          <attvalue for="3" value="0.3348226134654516" />
+          <attvalue for="4" value="0.017648224579260453" />
         </attvalues>
       </node>
       <node id="complex systems" label="complex systems">
         <attvalues>
-          <attvalue for="0" value="2" />
-          <attvalue for="1" value="16.0" />
-          <attvalue for="2" value="0.04878048780487805" />
-          <attvalue for="3" value="0.5061728395061729" />
-          <attvalue for="4" value="0.22210754442857678" />
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="23.0" />
+          <attvalue for="2" value="0.059414368403132606" />
+          <attvalue for="3" value="0.5032245196463" />
+          <attvalue for="4" value="0.24791287016406582" />
         </attvalues>
       </node>
       <node id="costs" label="costs">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="0" />
           <attvalue for="1" value="4.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.33884297520661155" />
-          <attvalue for="4" value="0.016754837541038646" />
+          <attvalue for="3" value="0.3348226134654516" />
+          <attvalue for="4" value="0.017648224579260453" />
         </attvalues>
       </node>
       <node id="agent-based modeling" label="agent-based modeling">
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="216.0" />
-          <attvalue for="2" value="0.992773261065944" />
-          <attvalue for="3" value="0.9425287356321839" />
-          <attvalue for="4" value="0.6997758346926184" />
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="231.0" />
+          <attvalue for="2" value="0.9440755873340143" />
+          <attvalue for="3" value="0.9244015632633121" />
+          <attvalue for="4" value="0.6963663884491298" />
         </attvalues>
       </node>
       <node id="decision-making" label="decision-making">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="3" />
           <attvalue for="1" value="13.0" />
-          <attvalue for="2" value="0.0012044564890093346" />
-          <attvalue for="3" value="0.5" />
-          <attvalue for="4" value="0.24455743075207875" />
+          <attvalue for="2" value="0.0015321756894790604" />
+          <attvalue for="3" value="0.4887640449438202" />
+          <attvalue for="4" value="0.23189660177811824" />
         </attvalues>
       </node>
       <node id="simulation" label="simulation">
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="11.0" />
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="12.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.49101796407185627" />
-          <attvalue for="4" value="0.22544069805979444" />
+          <attvalue for="3" value="0.4804799085888402" />
+          <attvalue for="4" value="0.23550016456722314" />
         </attvalues>
       </node>
       <node id="uncertainty" label="uncertainty">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="3" />
           <attvalue for="1" value="6.0" />
-          <attvalue for="2" value="0.02318578741342969" />
-          <attvalue for="3" value="0.49101796407185627" />
-          <attvalue for="4" value="0.1153268852087655" />
+          <attvalue for="2" value="0.006724548859380336" />
+          <attvalue for="3" value="0.4804799085888402" />
+          <attvalue for="4" value="0.10796491964778936" />
         </attvalues>
       </node>
       <node id="multi-agent reinforcement learning" label="multi-agent reinforcement learning">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="social networks" label="social networks">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="3.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
         </attvalues>
       </node>
       <node id="technology adoption" label="technology adoption">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
+        </attvalues>
+      </node>
+      <node id="climate-change adaptation" label="climate-change adaptation">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.011235955056179775" />
+          <attvalue for="4" value="3.659612014741383e-108" />
+        </attvalues>
+      </node>
+      <node id="climate-change impacts" label="climate-change impacts">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.011235955056179775" />
+          <attvalue for="4" value="3.659612014741383e-108" />
         </attvalues>
       </node>
       <node id="circular economy" label="circular economy">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="3.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
         </attvalues>
       </node>
       <node id="consumer behavior" label="consumer behavior">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="sustainability" label="sustainability">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="4.0" />
-          <attvalue for="2" value="0.024390243902439025" />
-          <attvalue for="3" value="0.49101796407185627" />
-          <attvalue for="4" value="0.06489962983388718" />
+          <attvalue for="2" value="0.021961184882533197" />
+          <attvalue for="3" value="0.4804799085888402" />
+          <attvalue for="4" value="0.06192749406045118" />
         </attvalues>
       </node>
       <node id="computational social science" label="computational social science">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="social dilemma" label="social dilemma">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="opinion dynamics" label="opinion dynamics">
         <attvalues>
-          <attvalue for="0" value="3" />
+          <attvalue for="0" value="5" />
           <attvalue for="1" value="5.0" />
-          <attvalue for="2" value="0.024390243902439025" />
-          <attvalue for="3" value="0.4939759036144578" />
-          <attvalue for="4" value="0.07399352037157308" />
+          <attvalue for="2" value="0.021961184882533197" />
+          <attvalue for="3" value="0.4832099080694586" />
+          <attvalue for="4" value="0.06972333304847902" />
         </attvalues>
       </node>
       <node id="public opinion" label="public opinion">
         <attvalues>
-          <attvalue for="0" value="3" />
+          <attvalue for="0" value="5" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.3319838056680162" />
-          <attvalue for="4" value="0.005190205417612821" />
+          <attvalue for="3" value="0.32459902221459813" />
+          <attvalue for="4" value="0.004633581608439546" />
         </attvalues>
       </node>
       <node id="flood risk management" label="flood risk management">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="fisheries" label="fisheries">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
-        </attvalues>
-      </node>
-      <node id="rational choice theory" label="rational choice theory">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="2.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
-        </attvalues>
-      </node>
-      <node id="climate change adaptation" label="climate change adaptation">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="2.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
-        </attvalues>
-      </node>
-      <node id="validation" label="validation">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="7.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.17180204823010564" />
-        </attvalues>
-      </node>
-      <node id="social influence" label="social influence">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="4.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.09817259898863179" />
-        </attvalues>
-      </node>
-      <node id="model validation" label="model validation">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="3.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
-        </attvalues>
-      </node>
-      <node id="climate change" label="climate change">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="4.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.09817259898863179" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="complexity" label="complexity">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="9.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.4915892706371371" />
+          <attvalue for="4" value="0.09573088132040275" />
+        </attvalues>
+      </node>
+      <node id="school choice" label="school choice">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.03698501872659179" />
+          <attvalue for="3" value="0.4915892706371371" />
+          <attvalue for="4" value="0.07403429750705624" />
+        </attvalues>
+      </node>
+      <node id="school segregation" label="school segregation">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="0.03698501872659179" />
+          <attvalue for="3" value="0.4915892706371371" />
+          <attvalue for="4" value="0.07403429750705624" />
+        </attvalues>
+      </node>
+      <node id="rational choice theory" label="rational choice theory">
+        <attvalues>
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
-      <node id="migration" label="migration">
+      <node id="climate change adaptation" label="climate change adaptation">
         <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="4.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.09817259898863179" />
-        </attvalues>
-      </node>
-      <node id="network effects" label="network effects">
-        <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
-      <node id="social simulation" label="social simulation">
+      <node id="cooperation" label="cooperation">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
-        </attvalues>
-      </node>
-      <node id="life cycle assessment" label="life cycle assessment">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="2.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
-        </attvalues>
-      </node>
-      <node id="social interaction" label="social interaction">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="2.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
-        </attvalues>
-      </node>
-      <node id="consumer behaviour" label="consumer behaviour">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="2.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
-        </attvalues>
-      </node>
-      <node id="covid-19" label="covid-19">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="4.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.09817259898863179" />
-        </attvalues>
-      </node>
-      <node id="netlogo" label="netlogo">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="3.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
-        </attvalues>
-      </node>
-      <node id="computer simulation" label="computer simulation">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="3.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
-        </attvalues>
-      </node>
-      <node id="socio-hydrology" label="socio-hydrology">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="3.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
-        </attvalues>
-      </node>
-      <node id="biodiversity" label="biodiversity">
-        <attvalues>
-          <attvalue for="0" value="1" />
-          <attvalue for="1" value="2.0" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="innovation" label="innovation">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.09255387912839846" />
+        </attvalues>
+      </node>
+      <node id="validation" label="validation">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.16196928847469733" />
+        </attvalues>
+      </node>
+      <node id="social influence" label="social influence">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="5.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.11569234891049808" />
+        </attvalues>
+      </node>
+      <node id="model validation" label="model validation">
+        <attvalues>
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="3.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
+        </attvalues>
+      </node>
+      <node id="climate change" label="climate change">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.09255387912839846" />
+        </attvalues>
+      </node>
+      <node id="migration" label="migration">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.09255387912839846" />
+        </attvalues>
+      </node>
+      <node id="network effects" label="network effects">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
+        </attvalues>
+      </node>
+      <node id="social simulation" label="social simulation">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
+        </attvalues>
+      </node>
+      <node id="life cycle assessment" label="life cycle assessment">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
+        </attvalues>
+      </node>
+      <node id="social interaction" label="social interaction">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
+        </attvalues>
+      </node>
+      <node id="consumer behaviour" label="consumer behaviour">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
+        </attvalues>
+      </node>
+      <node id="opinion formation" label="opinion formation">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
+        </attvalues>
+      </node>
+      <node id="covid-19" label="covid-19">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.09255387912839846" />
+        </attvalues>
+      </node>
+      <node id="netlogo" label="netlogo">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
+        </attvalues>
+      </node>
+      <node id="computer simulation" label="computer simulation">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
+        </attvalues>
+      </node>
+      <node id="socio-hydrology" label="socio-hydrology">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
+        </attvalues>
+      </node>
+      <node id="biodiversity" label="biodiversity">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
+        </attvalues>
+      </node>
+      <node id="bayesian estimation" label="bayesian estimation">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="calibration" label="calibration">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="4.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.09817259898863179" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.09255387912839846" />
         </attvalues>
       </node>
       <node id="housing market" label="housing market">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="3.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
         </attvalues>
       </node>
       <node id="critical phenomena of socio-economic systems" label="critical phenomena of socio-economic systems">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="data assimilation" label="data assimilation">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="0" />
           <attvalue for="1" value="5.0" />
-          <attvalue for="2" value="0.06955736224028906" />
-          <attvalue for="3" value="0.49696969696969695" />
-          <attvalue for="4" value="0.0892090097252621" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.48597110754414125" />
+          <attvalue for="4" value="0.08589081889525739" />
         </attvalues>
       </node>
       <node id="model calibration" label="model calibration">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="3.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
         </attvalues>
       </node>
       <node id="land-use change" label="land-use change">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="6.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.14725889848294768" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.1388308186925977" />
         </attvalues>
       </node>
       <node id="sensitivity analysis" label="sensitivity analysis">
         <attvalues>
-          <attvalue for="0" value="4" />
+          <attvalue for="0" value="6" />
           <attvalue for="1" value="9.0" />
-          <attvalue for="2" value="0.04817825956037338" />
-          <attvalue for="3" value="0.5" />
-          <attvalue for="4" value="0.12402833488843054" />
+          <attvalue for="2" value="0.04341164453524004" />
+          <attvalue for="3" value="0.4887640449438202" />
+          <attvalue for="4" value="0.11679742902604964" />
         </attvalues>
       </node>
       <node id="individual-based model" label="individual-based model">
         <attvalues>
-          <attvalue for="0" value="4" />
+          <attvalue for="0" value="6" />
           <attvalue for="1" value="4.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.3360655737704918" />
-          <attvalue for="4" value="0.009356143298496777" />
+          <attvalue for="3" value="0.3283588564487441" />
+          <attvalue for="4" value="0.00831450995931716" />
         </attvalues>
       </node>
       <node id="review" label="review">
         <attvalues>
-          <attvalue for="0" value="4" />
+          <attvalue for="0" value="6" />
           <attvalue for="1" value="4.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.3360655737704918" />
-          <attvalue for="4" value="0.009356143298496777" />
+          <attvalue for="3" value="0.3283588564487441" />
+          <attvalue for="4" value="0.00831450995931716" />
         </attvalues>
       </node>
       <node id="spatial segregation" label="spatial segregation">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="multi-agent systems" label="multi-agent systems">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="policy evaluation" label="policy evaluation">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="3.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
         </attvalues>
       </node>
       <node id="population dynamics" label="population dynamics">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="3.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
         </attvalues>
       </node>
       <node id="complex network" label="complex network">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="socio-economic networks" label="socio-economic networks">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="water market" label="water market">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="3.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
         </attvalues>
       </node>
       <node id="compliance" label="compliance">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="mekong delta" label="mekong delta">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="complex adaptive systems" label="complex adaptive systems">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="sustainable development" label="sustainable development">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="3.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
         </attvalues>
       </node>
       <node id="game theory" label="game theory">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="complex networks" label="complex networks">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="energy price shocks" label="energy price shocks">
         <attvalues>
-          <attvalue for="0" value="5" />
+          <attvalue for="0" value="7" />
           <attvalue for="1" value="4.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.49101796407185627" />
-          <attvalue for="4" value="0.052789150526123936" />
+          <attvalue for="3" value="0.4804799085888402" />
+          <attvalue for="4" value="0.04957127643794572" />
         </attvalues>
       </node>
       <node id="inflation" label="inflation">
         <attvalues>
-          <attvalue for="0" value="5" />
+          <attvalue for="0" value="7" />
           <attvalue for="1" value="4.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.49101796407185627" />
-          <attvalue for="4" value="0.052789150526123936" />
+          <attvalue for="3" value="0.4804799085888402" />
+          <attvalue for="4" value="0.04957127643794572" />
         </attvalues>
       </node>
       <node id="public space" label="public space">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="urbanization" label="urbanization">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="public policies" label="public policies">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="flood risk" label="flood risk">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="1" />
           <attvalue for="1" value="8.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4939759036144578" />
-          <attvalue for="4" value="0.10670758254954187" />
+          <attvalue for="3" value="0.4832099080694586" />
+          <attvalue for="4" value="0.10008955118829342" />
         </attvalues>
       </node>
       <node id="contagion" label="contagion">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="electric vehicle" label="electric vehicle">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="urban planning" label="urban planning">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="cloud model" label="cloud model">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="1" />
           <attvalue for="1" value="6.0" />
-          <attvalue for="2" value="0.008029709926728901" />
-          <attvalue for="3" value="0.4939759036144578" />
-          <attvalue for="4" value="0.06083870591356835" />
+          <attvalue for="2" value="0.007235274089206676" />
+          <attvalue for="3" value="0.4832099080694586" />
+          <attvalue for="4" value="0.05669638356160044" />
         </attvalues>
       </node>
       <node id="urban pluvial flooding" label="urban pluvial flooding">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="1" />
           <attvalue for="1" value="6.0" />
-          <attvalue for="2" value="0.008029709926728901" />
-          <attvalue for="3" value="0.4939759036144578" />
-          <attvalue for="4" value="0.06083870591356835" />
+          <attvalue for="2" value="0.007235274089206676" />
+          <attvalue for="3" value="0.4832099080694586" />
+          <attvalue for="4" value="0.05669638356160044" />
         </attvalues>
       </node>
       <node id="inequality" label="inequality">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="sociology" label="sociology">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="social norms" label="social norms">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="decision support" label="decision support">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="adaptive learning" label="adaptive learning">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="simulation validation" label="simulation validation">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="social network" label="social network">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="3.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.07362944924147384" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.06941540934629885" />
         </attvalues>
       </node>
       <node id="cellular automata" label="cellular automata">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="human decision-making" label="human decision-making">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="odd protocol" label="odd protocol">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="global sensitivity analysis" label="global sensitivity analysis">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
       <node id="irrigation" label="irrigation">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="2" />
           <attvalue for="1" value="2.0" />
           <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.4880952380952381" />
-          <attvalue for="4" value="0.049086299494315894" />
+          <attvalue for="3" value="0.47778058325968936" />
+          <attvalue for="4" value="0.04627693956419923" />
         </attvalues>
       </node>
     </nodes>
@@ -764,95 +827,107 @@
       <edge source="adaptation models" target="complex systems" id="0" weight="2" />
       <edge source="adaptation models" target="costs" id="1" weight="2" />
       <edge source="complex systems" target="costs" id="2" weight="2" />
-      <edge source="complex systems" target="agent-based modeling" id="3" weight="8" />
+      <edge source="complex systems" target="agent-based modeling" id="3" weight="9" />
       <edge source="complex systems" target="decision-making" id="4" weight="2" />
-      <edge source="complex systems" target="data assimilation" id="5" weight="2" />
-      <edge source="agent-based modeling" target="decision-making" id="6" weight="9" />
-      <edge source="agent-based modeling" target="simulation" id="7" weight="9" />
-      <edge source="agent-based modeling" target="uncertainty" id="8" weight="4" />
-      <edge source="agent-based modeling" target="multi-agent reinforcement learning" id="9" weight="2" />
-      <edge source="agent-based modeling" target="social networks" id="10" weight="3" />
-      <edge source="agent-based modeling" target="technology adoption" id="11" weight="2" />
-      <edge source="agent-based modeling" target="circular economy" id="12" weight="3" />
-      <edge source="agent-based modeling" target="consumer behavior" id="13" weight="2" />
-      <edge source="agent-based modeling" target="sustainability" id="14" weight="2" />
-      <edge source="agent-based modeling" target="computational social science" id="15" weight="2" />
-      <edge source="agent-based modeling" target="social dilemma" id="16" weight="2" />
-      <edge source="agent-based modeling" target="opinion dynamics" id="17" weight="3" />
-      <edge source="agent-based modeling" target="flood risk management" id="18" weight="2" />
-      <edge source="agent-based modeling" target="fisheries" id="19" weight="2" />
-      <edge source="agent-based modeling" target="rational choice theory" id="20" weight="2" />
-      <edge source="agent-based modeling" target="climate change adaptation" id="21" weight="2" />
-      <edge source="agent-based modeling" target="validation" id="22" weight="7" />
-      <edge source="agent-based modeling" target="social influence" id="23" weight="4" />
-      <edge source="agent-based modeling" target="model validation" id="24" weight="3" />
-      <edge source="agent-based modeling" target="climate change" id="25" weight="4" />
-      <edge source="agent-based modeling" target="complexity" id="26" weight="2" />
-      <edge source="agent-based modeling" target="migration" id="27" weight="4" />
-      <edge source="agent-based modeling" target="network effects" id="28" weight="2" />
-      <edge source="agent-based modeling" target="social simulation" id="29" weight="2" />
-      <edge source="agent-based modeling" target="life cycle assessment" id="30" weight="2" />
-      <edge source="agent-based modeling" target="social interaction" id="31" weight="2" />
-      <edge source="agent-based modeling" target="consumer behaviour" id="32" weight="2" />
-      <edge source="agent-based modeling" target="covid-19" id="33" weight="4" />
-      <edge source="agent-based modeling" target="netlogo" id="34" weight="3" />
-      <edge source="agent-based modeling" target="computer simulation" id="35" weight="3" />
-      <edge source="agent-based modeling" target="socio-hydrology" id="36" weight="3" />
-      <edge source="agent-based modeling" target="biodiversity" id="37" weight="2" />
-      <edge source="agent-based modeling" target="innovation" id="38" weight="3" />
-      <edge source="agent-based modeling" target="calibration" id="39" weight="4" />
-      <edge source="agent-based modeling" target="housing market" id="40" weight="3" />
-      <edge source="agent-based modeling" target="critical phenomena of socio-economic systems" id="41" weight="2" />
-      <edge source="agent-based modeling" target="data assimilation" id="42" weight="3" />
-      <edge source="agent-based modeling" target="model calibration" id="43" weight="3" />
-      <edge source="agent-based modeling" target="land-use change" id="44" weight="6" />
-      <edge source="agent-based modeling" target="sensitivity analysis" id="45" weight="5" />
-      <edge source="agent-based modeling" target="spatial segregation" id="46" weight="2" />
-      <edge source="agent-based modeling" target="multi-agent systems" id="47" weight="2" />
-      <edge source="agent-based modeling" target="policy evaluation" id="48" weight="3" />
-      <edge source="agent-based modeling" target="population dynamics" id="49" weight="3" />
-      <edge source="agent-based modeling" target="complex network" id="50" weight="2" />
-      <edge source="agent-based modeling" target="socio-economic networks" id="51" weight="2" />
-      <edge source="agent-based modeling" target="water market" id="52" weight="3" />
-      <edge source="agent-based modeling" target="compliance" id="53" weight="2" />
-      <edge source="agent-based modeling" target="mekong delta" id="54" weight="2" />
-      <edge source="agent-based modeling" target="complex adaptive systems" id="55" weight="2" />
-      <edge source="agent-based modeling" target="sustainable development" id="56" weight="3" />
-      <edge source="agent-based modeling" target="game theory" id="57" weight="2" />
-      <edge source="agent-based modeling" target="complex networks" id="58" weight="2" />
-      <edge source="agent-based modeling" target="energy price shocks" id="59" weight="2" />
-      <edge source="agent-based modeling" target="inflation" id="60" weight="2" />
-      <edge source="agent-based modeling" target="public space" id="61" weight="2" />
-      <edge source="agent-based modeling" target="urbanization" id="62" weight="2" />
-      <edge source="agent-based modeling" target="public policies" id="63" weight="2" />
-      <edge source="agent-based modeling" target="flood risk" id="64" weight="4" />
-      <edge source="agent-based modeling" target="contagion" id="65" weight="2" />
-      <edge source="agent-based modeling" target="electric vehicle" id="66" weight="2" />
-      <edge source="agent-based modeling" target="urban planning" id="67" weight="2" />
-      <edge source="agent-based modeling" target="cloud model" id="68" weight="2" />
-      <edge source="agent-based modeling" target="urban pluvial flooding" id="69" weight="2" />
-      <edge source="agent-based modeling" target="inequality" id="70" weight="2" />
-      <edge source="agent-based modeling" target="sociology" id="71" weight="2" />
-      <edge source="agent-based modeling" target="social norms" id="72" weight="2" />
-      <edge source="agent-based modeling" target="decision support" id="73" weight="2" />
-      <edge source="agent-based modeling" target="adaptive learning" id="74" weight="2" />
-      <edge source="agent-based modeling" target="simulation validation" id="75" weight="2" />
-      <edge source="agent-based modeling" target="social network" id="76" weight="3" />
-      <edge source="agent-based modeling" target="cellular automata" id="77" weight="2" />
-      <edge source="agent-based modeling" target="human decision-making" id="78" weight="2" />
-      <edge source="agent-based modeling" target="odd protocol" id="79" weight="2" />
-      <edge source="agent-based modeling" target="global sensitivity analysis" id="80" weight="2" />
-      <edge source="agent-based modeling" target="irrigation" id="81" weight="2" />
-      <edge source="decision-making" target="uncertainty" id="82" weight="2" />
-      <edge source="simulation" target="sustainability" id="83" weight="2" />
-      <edge source="opinion dynamics" target="public opinion" id="84" weight="2" />
-      <edge source="sensitivity analysis" target="individual-based model" id="85" weight="2" />
-      <edge source="sensitivity analysis" target="review" id="86" weight="2" />
-      <edge source="individual-based model" target="review" id="87" weight="2" />
-      <edge source="energy price shocks" target="inflation" id="88" weight="2" />
-      <edge source="flood risk" target="cloud model" id="89" weight="2" />
-      <edge source="flood risk" target="urban pluvial flooding" id="90" weight="2" />
-      <edge source="cloud model" target="urban pluvial flooding" id="91" weight="2" />
+      <edge source="complex systems" target="complexity" id="5" weight="2" />
+      <edge source="complex systems" target="school choice" id="6" weight="2" />
+      <edge source="complex systems" target="school segregation" id="7" weight="2" />
+      <edge source="complex systems" target="data assimilation" id="8" weight="2" />
+      <edge source="agent-based modeling" target="decision-making" id="9" weight="9" />
+      <edge source="agent-based modeling" target="simulation" id="10" weight="10" />
+      <edge source="agent-based modeling" target="uncertainty" id="11" weight="4" />
+      <edge source="agent-based modeling" target="multi-agent reinforcement learning" id="12" weight="2" />
+      <edge source="agent-based modeling" target="social networks" id="13" weight="3" />
+      <edge source="agent-based modeling" target="technology adoption" id="14" weight="2" />
+      <edge source="agent-based modeling" target="circular economy" id="15" weight="3" />
+      <edge source="agent-based modeling" target="consumer behavior" id="16" weight="2" />
+      <edge source="agent-based modeling" target="sustainability" id="17" weight="2" />
+      <edge source="agent-based modeling" target="computational social science" id="18" weight="2" />
+      <edge source="agent-based modeling" target="social dilemma" id="19" weight="2" />
+      <edge source="agent-based modeling" target="opinion dynamics" id="20" weight="3" />
+      <edge source="agent-based modeling" target="flood risk management" id="21" weight="2" />
+      <edge source="agent-based modeling" target="fisheries" id="22" weight="2" />
+      <edge source="agent-based modeling" target="complexity" id="23" weight="3" />
+      <edge source="agent-based modeling" target="school choice" id="24" weight="2" />
+      <edge source="agent-based modeling" target="school segregation" id="25" weight="2" />
+      <edge source="agent-based modeling" target="rational choice theory" id="26" weight="2" />
+      <edge source="agent-based modeling" target="climate change adaptation" id="27" weight="2" />
+      <edge source="agent-based modeling" target="cooperation" id="28" weight="2" />
+      <edge source="agent-based modeling" target="innovation" id="29" weight="4" />
+      <edge source="agent-based modeling" target="validation" id="30" weight="7" />
+      <edge source="agent-based modeling" target="social influence" id="31" weight="5" />
+      <edge source="agent-based modeling" target="model validation" id="32" weight="3" />
+      <edge source="agent-based modeling" target="climate change" id="33" weight="4" />
+      <edge source="agent-based modeling" target="migration" id="34" weight="4" />
+      <edge source="agent-based modeling" target="network effects" id="35" weight="2" />
+      <edge source="agent-based modeling" target="social simulation" id="36" weight="2" />
+      <edge source="agent-based modeling" target="life cycle assessment" id="37" weight="2" />
+      <edge source="agent-based modeling" target="social interaction" id="38" weight="2" />
+      <edge source="agent-based modeling" target="consumer behaviour" id="39" weight="2" />
+      <edge source="agent-based modeling" target="opinion formation" id="40" weight="2" />
+      <edge source="agent-based modeling" target="covid-19" id="41" weight="4" />
+      <edge source="agent-based modeling" target="netlogo" id="42" weight="3" />
+      <edge source="agent-based modeling" target="computer simulation" id="43" weight="3" />
+      <edge source="agent-based modeling" target="socio-hydrology" id="44" weight="3" />
+      <edge source="agent-based modeling" target="biodiversity" id="45" weight="2" />
+      <edge source="agent-based modeling" target="bayesian estimation" id="46" weight="2" />
+      <edge source="agent-based modeling" target="calibration" id="47" weight="4" />
+      <edge source="agent-based modeling" target="housing market" id="48" weight="3" />
+      <edge source="agent-based modeling" target="critical phenomena of socio-economic systems" id="49" weight="2" />
+      <edge source="agent-based modeling" target="data assimilation" id="50" weight="3" />
+      <edge source="agent-based modeling" target="model calibration" id="51" weight="3" />
+      <edge source="agent-based modeling" target="land-use change" id="52" weight="6" />
+      <edge source="agent-based modeling" target="sensitivity analysis" id="53" weight="5" />
+      <edge source="agent-based modeling" target="spatial segregation" id="54" weight="2" />
+      <edge source="agent-based modeling" target="multi-agent systems" id="55" weight="2" />
+      <edge source="agent-based modeling" target="policy evaluation" id="56" weight="3" />
+      <edge source="agent-based modeling" target="population dynamics" id="57" weight="3" />
+      <edge source="agent-based modeling" target="complex network" id="58" weight="2" />
+      <edge source="agent-based modeling" target="socio-economic networks" id="59" weight="2" />
+      <edge source="agent-based modeling" target="water market" id="60" weight="3" />
+      <edge source="agent-based modeling" target="compliance" id="61" weight="2" />
+      <edge source="agent-based modeling" target="mekong delta" id="62" weight="2" />
+      <edge source="agent-based modeling" target="complex adaptive systems" id="63" weight="2" />
+      <edge source="agent-based modeling" target="sustainable development" id="64" weight="3" />
+      <edge source="agent-based modeling" target="game theory" id="65" weight="2" />
+      <edge source="agent-based modeling" target="complex networks" id="66" weight="2" />
+      <edge source="agent-based modeling" target="energy price shocks" id="67" weight="2" />
+      <edge source="agent-based modeling" target="inflation" id="68" weight="2" />
+      <edge source="agent-based modeling" target="public space" id="69" weight="2" />
+      <edge source="agent-based modeling" target="urbanization" id="70" weight="2" />
+      <edge source="agent-based modeling" target="public policies" id="71" weight="2" />
+      <edge source="agent-based modeling" target="flood risk" id="72" weight="4" />
+      <edge source="agent-based modeling" target="contagion" id="73" weight="2" />
+      <edge source="agent-based modeling" target="electric vehicle" id="74" weight="2" />
+      <edge source="agent-based modeling" target="urban planning" id="75" weight="2" />
+      <edge source="agent-based modeling" target="cloud model" id="76" weight="2" />
+      <edge source="agent-based modeling" target="urban pluvial flooding" id="77" weight="2" />
+      <edge source="agent-based modeling" target="inequality" id="78" weight="2" />
+      <edge source="agent-based modeling" target="sociology" id="79" weight="2" />
+      <edge source="agent-based modeling" target="social norms" id="80" weight="2" />
+      <edge source="agent-based modeling" target="decision support" id="81" weight="2" />
+      <edge source="agent-based modeling" target="adaptive learning" id="82" weight="2" />
+      <edge source="agent-based modeling" target="simulation validation" id="83" weight="2" />
+      <edge source="agent-based modeling" target="social network" id="84" weight="3" />
+      <edge source="agent-based modeling" target="cellular automata" id="85" weight="2" />
+      <edge source="agent-based modeling" target="human decision-making" id="86" weight="2" />
+      <edge source="agent-based modeling" target="odd protocol" id="87" weight="2" />
+      <edge source="agent-based modeling" target="global sensitivity analysis" id="88" weight="2" />
+      <edge source="agent-based modeling" target="irrigation" id="89" weight="2" />
+      <edge source="decision-making" target="uncertainty" id="90" weight="2" />
+      <edge source="simulation" target="sustainability" id="91" weight="2" />
+      <edge source="climate-change adaptation" target="climate-change impacts" id="92" weight="2" />
+      <edge source="opinion dynamics" target="public opinion" id="93" weight="2" />
+      <edge source="complexity" target="school choice" id="94" weight="2" />
+      <edge source="complexity" target="school segregation" id="95" weight="2" />
+      <edge source="school choice" target="school segregation" id="96" weight="2" />
+      <edge source="sensitivity analysis" target="individual-based model" id="97" weight="2" />
+      <edge source="sensitivity analysis" target="review" id="98" weight="2" />
+      <edge source="individual-based model" target="review" id="99" weight="2" />
+      <edge source="energy price shocks" target="inflation" id="100" weight="2" />
+      <edge source="flood risk" target="cloud model" id="101" weight="2" />
+      <edge source="flood risk" target="urban pluvial flooding" id="102" weight="2" />
+      <edge source="cloud model" target="urban pluvial flooding" id="103" weight="2" />
     </edges>
   </graph>
 </gexf>
